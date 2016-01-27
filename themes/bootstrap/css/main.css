@@ -1,0 +1,359 @@
+body {
+  background: #e8e8e8;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 16px;
+  -o-transition: font-size 1s;
+  -moz-transition: font-size 1s;
+  -webkit-transition: font-size 1s;
+  -papitas-transition: font-size 1s;
+  transition: font-size 1s;
+}
+header {
+  background: #013b21;
+  -webkit-box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  color: #fff;
+  padding: 0.5em;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  z-index: 3;
+}
+header .logo {
+  border-right: 1px solid #dd4f24;
+  float: left;
+  width: 60px;
+}
+header .logo img {
+  border: 0px dashed #bbb;
+  height: 52px;
+  width: 52px;
+  padding: 0.2em 0.2em;
+}
+header .titular {
+  margin: 0 80px 0 70px;
+}
+header .titular .titulo {
+  font-size: 28px;
+  font-weight: normal;
+  text-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  margin: 0;
+  position: absolute;
+  top: 22px;
+}
+header .usuario {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: block;
+}
+header .usuario .avatar {
+  margin: 0 0.5em 0 0;
+  position: relative;
+  z-index: 69;
+  float: right;
+}
+header .usuario .avatar img {
+  border: 0px dashed #bbb;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 45px;
+}
+header .usuario .publicar {
+  background: #dd4f24;
+  -webkit-border-radius: 10px 0 0 30px;
+  border-radius: 10px 0 0 30px;
+  color: #fff;
+  display: block;
+  float: right;
+  font-style: italic;
+  margin: 0;
+  padding: 0 5px 0 10px;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #000;
+  top: 36px;
+  right: 5px;
+}
+header .usuario .publicar:hover {
+  z-index: 90;
+}
+footer {
+  background-color: #f2a516;
+  display: block;
+  font-size: 0.8em;
+  height: 90px;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+footer h3 {
+  color: #f3f5f3;
+  font-size: 14px;
+  font-weigth: normal;
+  text-shadow: 0.5px 1px 0px #444;
+}
+footer h3 strong {
+  display: block;
+  margin: 5px;
+  font-size: 1em;
+}
+footer h3 span {
+  font-style: italic;
+}
+.navbar {
+  color: #fff;
+  font-weight: border;
+}
+.navbar:hover {
+  -o-transition: #008000;
+  -moz-transition: #008000;
+  -webkit-transition: #008000;
+  -papitas-transition: #008000;
+  transition: #008000;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: relative;
+  margin-bottom: 0px;
+  left: 0px;
+}
+#menu {
+  z-index: 2;
+}
+nav {
+  position: relative;
+  display: block;
+  -webkit-box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  display: none;
+}
+nav #titulobrand {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0.5em;
+  padding: 0.5em 0.2em;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 0 30px rgba(255,255,255,0.125);
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -papitas-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+nav #titulobrand:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+nav #titulobrand img {
+  width: 20px;
+  color: #fff;
+  margin: 0 5px;
+}
+nav #titulobrand small {
+  font-weight: bold;
+}
+nav #menus {
+  font-size: 20px;
+  left: 0;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 10px;
+}
+section {
+  background: #ece9e9;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+section .view {
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 10px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 0 10px 0;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.9);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.9);
+}
+section #content {
+  height: 100%;
+}
+section #content h1 {
+  font-size: 28px;
+  font-weight: normal;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+section #content .login {
+  height: 500px;
+}
+section #content .login .loginUsuario {
+  background: #fff;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+  margin: auto auto;
+  padding: 10px 0 15px 0;
+  position: relative;
+}
+section #content .login .loginUsuario h3 {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dd4f24;
+  -webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+}
+section #content .login .loginUsuario .form {
+  width: 100%;
+  margin: 0px;
+}
+section #content .login .loginUsuario .col-sm-12 .form-group label {
+  font-size: 18px;
+  padding-left: 10px;
+}
+section #content .login .loginUsuario .col-sm-12 .form-group .checkbox label {
+  color: #444;
+}
+section #content .perfil {
+  padding: 10px;
+}
+section #content .perfil .datos {
+  padding-top: 15px;
+}
+section #content .perfil .datos .subtitulo {
+  width: 200px;
+  color: #dd4f24;
+  font-weight: bold;
+}
+@media (max-width: 768px) and (min-width: 518px) {
+  section {
+    background: #ece9e9;
+  }
+  section #content .login {
+    margin: 60px 0 60px 0;
+    height: 100%;
+  }
+  section #content .login .loginUsuario {
+    width: 400px;
+  }
+  section #content .login .loginUsuario .form {
+    width: 100%;
+    margin: 0px;
+    padding: 0 10px;
+  }
+  section #content .login .loginUsuario .form p {
+    font-size: 14px;
+  }
+  section #content .login .loginUsuario .form .col-sm-12 .form-group label {
+    font-size: 14px;
+  }
+  section #content .perfil {
+    padding: 10px;
+  }
+  section #content .perfil .userFoto {
+    width: 30%;
+    display: inline-block;
+  }
+  section #content .perfil .datos {
+    padding-top: 15px;
+    width: 70%;
+    float: right;
+  }
+  section #content .perfil .datos .subtitulo {
+    width: 200px;
+    color: #dd4f24;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .usuario .avatar img {
+    border: 0px dashed #bbb;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 55px;
+  }
+  header .usuario .publicar {
+    top: 20px;
+    right: 60px;
+  }
+  header .usuario .publicar:hover {
+    z-index: 90;
+  }
+  .navbar {
+    color: #fff;
+    font-weight: border;
+  }
+  .navbar:hover {
+    -o-transition: #008000;
+    -moz-transition: #008000;
+    -webkit-transition: #008000;
+    -papitas-transition: #008000;
+    transition: #008000;
+  }
+  nav #titulobrand {
+    float: left;
+  }
+  nav #menus {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  section {
+    background: #ece9e9;
+    padding: auto;
+  }
+  section #content .login {
+    margin: 60px 0 60px 0;
+    height: 100%;
+  }
+  section #content .login .loginUsuario {
+    width: 400px;
+    top: 25%;
+  }
+  section #content .login .loginUsuario .form {
+    width: 100%;
+    margin: 0px;
+    padding: 0 10px;
+  }
+  section #content .login .loginUsuario .form p {
+    font-size: 14px;
+  }
+  section #content .login .loginUsuario .form .col-sm-12 .form-group label {
+    font-size: 14px;
+  }
+  section #content .perfil {
+    padding: 10px;
+  }
+  section #content .perfil .userFoto {
+    width: 30%;
+  }
+  section #content .perfil .datos {
+    padding-top: 15px;
+    width: 70%;
+    float: right;
+  }
+  section #content .perfil .datos .subtitulo {
+    color: #dd4f24;
+    font-weight: bold;
+    width: 200px;
+  }
+}

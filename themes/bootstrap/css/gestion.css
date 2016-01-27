@@ -1,0 +1,70 @@
+	.span-19{
+		width: 100%;
+		margin: 0;
+		padding: 10px 20px 10px 20px;
+
+	}
+    .pos label{
+        width: 80px;
+        color: red;
+        font-size: 18px;
+    }
+
+
+    footer {
+        background-color: #444444;
+        padding: 10px;
+        font-size: 0.8em;
+        text-align: center;
+        border-top: 1px solid #c9e0ed;
+    }
+    footer h3 {
+        color: #f4eeee;
+        padding: 0;
+        font-size: 14px;
+        font-weigth: normal;
+    }
+    footer h3 strong {
+        display: block;
+        padding: 0;
+        font-size: 1em;
+    }
+
+    .form{
+        font-style: normal;
+        font-family: Arial;
+        font-size: 1.5em;
+
+    }
+    .form input{
+        width: 90%;
+        height: 2.5em;
+        font-weight: normal;
+    }
+
+    .form label{
+        margin-top: 12px;
+
+    }
+
+
+    @media screen and (min-width: 768px) {
+        header .titular .publicar {
+            font-size: 1.1em;
+            padding-left: 3em;
+            position: relative;
+            top: -5px;
+        }
+        header .titular .publicar:before {
+            left: 0;
+            font-size: 2.5em;
+            position: absolute;
+            top: -20px;
+        }
+
+        footer{
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+    }
